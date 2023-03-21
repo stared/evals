@@ -1,0 +1,8 @@
+polish-matura-exam:
+  id: polish-matura-exam.simple-v0
+  description: Matura - an official exam in Poland that concludes high school. Only self-contained multiple choice tasks.
+  metrics: [accuracy]
+polish-matura-exam.simple-v0:
+  class: evals.elsuite.basic.includes:Includes
+  args:
+    samples_jsonl: polish-matura-exam/maths_basic_2022.jsonl
